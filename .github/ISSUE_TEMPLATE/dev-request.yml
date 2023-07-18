@@ -1,0 +1,63 @@
+name: Dev Request (Dev Team Only)
+description: (Dev Team Only) Detailed Development Request For Dev Team
+title: "[Dev]"
+labels: ["dev"]
+body:
+  - type: dropdown
+    id: focus-point
+    attributes:
+      label: Dev Focus
+      description: Main Focus Point of This Issue
+      multiple: false
+      options:
+        - "refactor ⚡"
+        - "chore 📦"
+        - "docs 📝"
+        - "perf 💨"
+        - "feat 🚄"
+        - "base 🏗️"
+        - "fix 🔧"
+        - "ui 🎨"
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Dev Priority
+      multiple: false
+      options:
+        - "CRM ⚠️"
+        - "High 🔋"
+        - "Medium ⭐"
+        - "Low 🪫"
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Dev Scope
+      description: Repo Scope of This Request
+      placeholder: Write your dev scope about this issue here.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Write your description about this issue here.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goals
+      placeholder: Write your goals of this dev request here.
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: markdown
+    validations:
+      required: true
