@@ -10,15 +10,15 @@ body:
       description: Main Focus Point of This Issue
       multiple: false
       options:
-        - "refactor ⚡"
-        - "chore 📦"
-        - "docs 📝"
-        - "perf 💨"
-        - "feat 🚄"
-        - "test 🚨"
-        - "base 🏗️"
-        - "fix 🔧"
-        - "ui 🎨"
+        - "Refactor ⚡"
+        - "Chore 📦"
+        - "Docs 📝"
+        - "Perf 💨"
+        - "Feat 🚄"
+        - "Test 🚨"
+        - "Base 🏗️"
+        - "Fix 🔧"
+        - "UI 🎨"
     validations:
       required: true
   - type: dropdown
