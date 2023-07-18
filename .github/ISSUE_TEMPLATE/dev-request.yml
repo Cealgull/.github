@@ -1,5 +1,5 @@
-name: Dev Request (Dev Team Only)
-description: (Dev Team Only) Detailed Development Request For Dev Team
+name: "Dev Request (Dev Team Only) "
+description: "(Dev Team Only) Detailed Development Request For Dev Team "
 title: "[Dev]"
 labels: ["dev"]
 body:
@@ -15,6 +15,7 @@ body:
         - "docs 📝"
         - "perf 💨"
         - "feat 🚄"
+        - "test 🚨"
         - "base 🏗️"
         - "fix 🔧"
         - "ui 🎨"
