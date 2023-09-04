@@ -46,7 +46,7 @@ body:
     attributes:
       label: Description
       placeholder: Write your description about this issue here.
-      render: markdown
+      render: Markdown
     validations:
       required: true
   - type: textarea
@@ -59,6 +59,6 @@ body:
         2.
         3.
         ...
-      render: markdown
+      render: Markdown
     validations:
       required: true
